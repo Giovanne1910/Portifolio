@@ -1,0 +1,238 @@
+*{
+  margin: 0;
+  padding: 0%;
+  font-family: 'Titillium Web', sans-serif;
+  box-sizing: border-box;
+  
+}
+
+header{
+  height: 100%;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  background: #F3EDC8;
+}
+
+.logo img{
+  width: 80px;
+  margin-left: 80px;
+  border-radius: 45%;
+}
+
+nav ul{
+  width: 100%;
+  text-align: right;
+  list-style: none;
+  margin-right: 180px;
+}
+
+nav ul li{
+  display: inline-block;
+  margin: 5px 15px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #750E21;
+}
+
+nav ul li a:hover{
+  text-decoration: none;
+  color: #6e3842;
+}
+
+.contain{
+  /*background-image: url(../images/cloud.jpg);*/
+  background: #F3EDC8;
+  width: 100%;
+}
+
+.carousel-item img{
+  height: 500px;
+  width: 500px;
+}
+
+.carousel-caption p{
+  color: #000000;
+}
+
+.toggle-btn{
+  background: #F3EDC8;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.toggle-btn img{
+  width: 25px;
+  margin-left: 10px;
+}
+
+.content{
+  max-width: 400px;
+  width: 100%;
+}
+
+.content h1{
+  font-size: 80px;
+  color: #000000;
+  font-weight: 600;
+  margin-left: 60px;
+}
+
+.content p{
+  margin-left: 60px;
+  color: #383838;
+  margin-top: 10px;
+}
+
+.content h1 span{
+  font-family: serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.content a{
+  background: #750E21;
+  color: #faded2;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  margin-left: 80px;
+  margin-bottom: 10px;
+}
+
+.image img{
+  position: absolute;
+  right: 10%;
+  display: flex;
+  height: 60%;
+  top: 20%;
+}
+
+.image img:hover{
+  transform: scale(1.1);
+}
+
+.rounded{
+  border-radius: 35%;
+  width: 350px;
+  animation: move 1s linear infinite alternate-reverse;
+  float: inline-end;
+}
+
+/* PROJECTS */
+
+h1{
+  padding-top: 15PX;
+}
+
+.project h1{
+  align-items: center;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000000;
+  position: center;
+  font-weight: 800;
+}
+
+.project{
+  background: #F3EDC8;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.column-card{
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+  justify-content: center;
+  margin-bottom: 5px;
+  margin-left: 5%;
+}
+
+.card-group{
+  margin-bottom: 10px;
+}
+
+.card{
+  padding: 10px;
+  border-radius: 15%;
+  text-align: center;
+  justify-content: center;
+  padding: 15px;
+  margin: 30px;
+}
+
+.card-body h5, p{
+color: #000000;
+}
+
+.column-card h2{
+  align-items: center;
+}
+
+.description{
+  text-align: center;
+  align-items: center;
+  font-size: large;
+  padding-top: 70px;
+  color: #000000;
+}
+
+.social p{
+  color: #750E21;
+  font-weight: 500;
+}
+
+.social-icons{
+  letter-spacing: 10px;
+  color: #750E21;
+}
+
+.social-icons i{
+  color: #750E21;
+}
+
+.card-body a, button{
+  background: #750E21;
+  border: none;
+}
+
+.card-body a:hover{
+  background: #bd304a;
+
+}
+/* FOOTER */
+
+
+@media only screen and (min-width: 414px) and (max-width: 1000px) {
+  .image {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  .image {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .image {
+    width: 100%;
+  }
+}
